@@ -1,4 +1,4 @@
 #!/bin/bash
-source /home/deekshithsn1/shell-script/config
+source config
 echo "Name=$nam" 
 echo "Surname=$sur"
