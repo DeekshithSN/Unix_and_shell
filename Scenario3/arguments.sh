@@ -2,19 +2,14 @@ while
     [ -n "$1" ]
 do
     case "$1" in
-    --branch)
-        BRANCH="$2"
-        OPT_BRANCH=true
+    -b)
+        echo "$2 is a branch"
         shift
         ;;
-    --tag)
-       TAG="$2"
-       OPT_TAG=true
+    -t)
+       echo "$2 is a tag"
        shift
        ;;
-    --include_all_modules)
-        INCLUDE_ALL_MODULES="--include_all_modules"
-        ;;
     *)
         echo "Option $1 not recognized"
         exit 1
