@@ -1,4 +1,4 @@
-#!/bin/sh -x
+#!/bin/sh
 folder_path="/home/deekshithsn1/application_logs"
 cd $folder_path
 count_of_files=$( ls -1 | wc -l )
