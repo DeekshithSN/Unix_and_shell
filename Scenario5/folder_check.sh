@@ -7,5 +7,5 @@ then
 echo "folder has more than 10 files"
 ls -1t | tail -n +11 | xargs rm -f
 else 
-echo "folder has less than 10 files"
+echo "folder has less than or equal to 10 files"
 fi
