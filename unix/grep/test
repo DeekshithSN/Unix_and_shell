@@ -1,0 +1,8 @@
+total 4
+-rw-r--r-- 1 root root 189 Mar 16 09:45 grep.txt
+-rw-r--r-- 1 root root   0 Mar 16 11:16 test
+-rw-r--r-- 1 root root   0 Mar 16 11:16 test1
+total 12
+-rw-r--r-- 1 root root 189 Mar 16 09:45 grep.txt
+-rw-r--r-- 1 root root 148 Mar 16 11:16 test
+-rw-r--r-- 1 root root 148 Mar 16 11:16 test1
