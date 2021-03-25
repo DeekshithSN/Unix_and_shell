@@ -1,1 +1,2 @@
-This is from $0
+#! /bin/sh
+echo "This is from $0"
