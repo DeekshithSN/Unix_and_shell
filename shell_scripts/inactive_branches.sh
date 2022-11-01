@@ -15,6 +15,6 @@ last_updated_date_sec=$(date -d $api_last_updated_date +%s)
 numberofdays=$(( ($presentdate - $last_updated_date_sec)/(60*60*24) ))
  if [ $numberofdays -gt 60 ] ; then
         
-        echo "Branch $api_branch_name is updated $numberofdays days back"
+        echo "$api_branch_name,$numberofdays" >> inactive_branch.csv
      fi
 done
